@@ -4,6 +4,8 @@ est l'algorithme le plus populaire dans l'apprentissage non supervisé, il consi
 
 L’algorithme k-means est un algorithme itératif qui fonctionne en deux étape essentiels :
 
+La première étape consiste à placer des points au hasard parmis nos données appelées “centroid”, puis on affecte chaque point du dataset au centroid le plus proche. On répète cette étape plusieurs fois  pour obtenir des differentes positions initiales quand on aura besoin d’eux dans la deuxième étape. 
+
 # Remarque :
 Dans le cas ou on se retrouve avec un dataset avec des centaines de dimensions 
 On peut déterminer le bon nombre de clusters on utilise 'ELBOW MÉTHODE'. Cette dernière consiste à tracer l'évolution de notre 
